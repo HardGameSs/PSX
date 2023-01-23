@@ -6,7 +6,7 @@ local Hello = {
 		["get my banks"] = {Bank.GetMyBanks, 3},
 		["get bank"] = {Bank.GetBank, 3},
 		["bank deposit"] = {Bank.Deposit, 16},
-		["invite to bank"] = {Bank.InviteToBank, 11},
+		["invite to bank"] = {Bank.InviteToBank, 18},
 		["kick from bank"] = {Bank.KickMember, 9},
 		["lock pet"] = {Inventory.LockPets, 5},
 	}
