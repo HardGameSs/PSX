@@ -1,4 +1,4 @@
-local Bank = getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"])
+local Bank = getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs:FindFirstChild("Bank Client"))
 local Inventory = getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs.Inventory)
 
 local Hello = {
